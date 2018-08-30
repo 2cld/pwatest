@@ -1,0 +1,78 @@
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# expo
+.expo/
+
+# dependencies
+/node_modules
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 2cld OS
+.DS_Store
+.DS_Store?
+ehthumbs.db 
+Icon?
+Thumbs.db
+
+# 2cld sphinx build
+/docs/build/
+
+# 2cld android studio
+#--------------------
+# Built application files
+/android/*/build/
+
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+
+# Local configuration file (sdk path, etc)
+/android/local.properties
+
+# Gradle generated files
+/android/.gradle/
+
+# Signing files
+/android/.signing/
+
+# User-specific configurations
+/android/.idea/libraries/
+/android/.idea/workspace.xml
+/android/.idea/tasks.xml
+/android/.idea/.name
+/android/.idea/compiler.xml
+/android/.idea/copyright/profiles_settings.xml
+/android/.idea/encodings.xml
+/android/.idea/misc.xml
+/android/.idea/modules.xml
+/android/.idea/scopes/scope_settings.xml
+/android/.idea/vcs.xml
+*.iml
+
+# 2cld ios xcode
+#---------------
+# Mac OS X
+*.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcworkspace/
+project.xcworkspace/
+/ios/xcuserdata/
+
+# Podfiles
+/ios/Pods/
+
